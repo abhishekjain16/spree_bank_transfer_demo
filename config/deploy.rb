@@ -2,7 +2,7 @@ require "bundler/capistrano"
 # for multiple enviroments
 require 'capistrano/ext/multistage'
 
-set :repository,  "git@github.com:vinsol/spree-ios-web-app.git"
+set :repository,  "git@github.com:abhishekjain16/spree_bank_transfer_demo.git"
 set :stages, %w(staging)
 set :scm, :git
 

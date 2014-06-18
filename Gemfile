@@ -21,7 +21,7 @@ gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-gem 'spree-bank-transfer', :require => 'spree_bank_transfer'
+gem 'spree-bank-transfer', :require => 'spree_bank_transfer', github: 'vinsol/spree_bank_transfer', branch: 'master'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
