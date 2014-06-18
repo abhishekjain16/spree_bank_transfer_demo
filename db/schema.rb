@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140617114517) do
+ActiveRecord::Schema.define(version: 20140618110740) do
 
   create_table "spree_addresses", force: true do |t|
     t.string   "firstname"
@@ -72,9 +72,10 @@ ActiveRecord::Schema.define(version: 20140617114517) do
   create_table "spree_banks", force: true do |t|
     t.string   "name"
     t.string   "account_no"
-    t.boolean  "active",     default: true
+    t.boolean  "active",             default: true
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "additional_details"
   end
 
   add_index "spree_banks", ["active"], name: "index_spree_banks_on_active", using: :btree
