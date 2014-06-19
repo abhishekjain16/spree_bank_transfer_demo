@@ -68,7 +68,8 @@ GIT
 
 GIT
   remote: git://github.com/vinsol/spree_bank_transfer.git
-  revision: f78a3073e40ad64fb3174044290c2c447fba6cd5
+  revision: b4520e17a1a239f19c8f79d09cb42161dece6542
+  ref: b4520e17a1
   branch: master
   specs:
     spree-bank-transfer (2.2.5)
